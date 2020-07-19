@@ -1,8 +1,9 @@
 {
   "name": "portfolio",
+  "homepages": "https://raviroygit.github.io/portfolio1",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://raviroygit.github.io/portfolio1",
+  
   "dependencies": {
     "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^4.2.4",
