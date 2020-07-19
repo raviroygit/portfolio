@@ -3,14 +3,12 @@
   "homepage": "https://raviroygit.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
-  
   "dependencies": {
     "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.0",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.2",
     "react-components": "^0.5.1",
@@ -26,12 +24,11 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-     
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,5 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }

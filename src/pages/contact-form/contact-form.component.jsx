@@ -35,7 +35,7 @@ const ContactForm =() => {
                             </a>
                         </div>
                         <div className="m-2">
-                            <a href="https://www.github.com/RaviITS" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.github.com/raviroygit" target="_blank" rel="noopener noreferrer">
                                 <Button variant="outline-primary" title="My github page">
                                     <i className="fab fa-github-square"></i> GitHub
 
